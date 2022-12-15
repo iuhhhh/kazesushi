@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="with=device-width, initial-scale=1.0">
+   <title>Kaze Sushi</title>
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap" rel="stylesheet"> 
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Solway&display=swap" rel="stylesheet"> 
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Solway:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  
+</head>
+<body>
+
+<div class="bg"></div>
+
+<a id="backtotop"><i class="fa fa-chevron-up"></i></a>
+
+<script type="text/javascript" src="jquery.backtotop.js"></script>
+
+<header>
+ 
+    <input type="checkbox" name="" id="toggler">
+    <label for="toggler" class="fas fa-bars"></label>
+
+        <img src="kaze sushi logo.jpg" class="logo">
+         
+        <nav class="navbar">
+           <ul>
+            <li><a href="kaze sushi bakar.html#Home">Home</a><i class="fa fa-home"></i></li>
+            <li><a href="kaze sushi bakar.html#About Us">About Us</a><i class="fa fa-camera"></i></li>
+            <li><a href="kaze sushi bakar.html#Category">Category</a><i class="fa fa-lightbulb"></i></li>
+            <li>
+              <a href="#Menu">Menu <i class="fas fa-caret-down"></i></a>
+ 
+                <div class="dropdown">
+                 <ul>
+                  <li><a href="#Sushi">Kaze Sushi</a></li>
+                  <li><a href="#Set Meals">Set Meals</a></li>
+                  <li><a href="#Side Dishes">Side Dishes</a></li>
+                  <li><a href="#Beverages & Desserts">Bevereges & Desserts</a></li>
+                 </ul>
+                </div>
+
+            </li>
+            <li><a href="kaze sushi bakar.html#Review">Review</a><i class="fa fa-comment"></i></li>
+            <li><a href="Login.html">Login</a><i class="fa fa-user"></i></li>
+           </ul>        
+        </nav>
+ 
+        <div class="icons">
+            <i class="fas fa-search" id="search-icon"></i>
+            <i class="fas fa-shopping-cart" id="cart-icon"></i>
+        </div>
+
+<form action="#" id="sabi">
+
+<div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+      </div>
+
+<nav class="roo navbar-inverse bg-inverse fixed-top bg-faded">
+    <div class="rokkan">
+        <div class="roki">
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cart">Cart (<span class="total-count"></span>)</button>
+          <button class="clear-cart btn btn-danger">Clear Cart</button>
+         </div>
+    </div>
+</nav>
+
+      <div class="modal-body">
+        <table class="show-cart table"></table>
+        <div class="kl">
+        <div>Total price: RM<span class="total-cart"></span></div>
+        </div>
+      </div>
+      <a href="Order Now.html" class="btn-bty">Order Now</a>
+      <i class="fas fa-times" id="cart-close"></i>
+    </div>
+  </div>
+</div> 
+</div>
+</form>
+      <form action="https://www.google.com/search" id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+      </form>
+
+</header>
+
+<section class="#Menu" id="Menu">
+
+   <section class="#Sushi" id="Sushi">
+     <div class="shop-container">
+        <div class="title"> MENU </div>
+        <div class="sushi"> kaze sushi </div>
+     </div>
+
+     <div class="menu-container">
+
+        <div class="menu">
+            <div class="c">
+                <img src="S1 Tsubukko.jpg" alt="">
+            </div>
+            <div class="wuyu">
+                <h3>Tsubukko</h3>
+                <p>Fish roe</p>
+                <a href="#" data-name="Tsubukko" data-price="1.50" class="add-to-cart btn btn-primary">Add to cart</a>
+                <span class="price">RM 1.50</span>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="c">
+                <img src="S1 Chuka-Wakame.jpg" alt="">
+            </div>
+            <div class="wuyu">
+                <h3>Chuka Wakame</h3>
+                <p>Seasoned seaweed</p>
+                <a href="#" data-name="Chuka-Wakame" data-price="1.50" class="add-to-cart btn btn-primary">Add to cart</a>
+                <span class="price">RM 1.50</span>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="c">
+                <img src="S1 Ebi-Nigiri.jpg" alt="">
+            </div>
+            <div class="wuyu">              
+                <h3>Ebi</h3>
+                <p>Shrimp</p>
+                <a href="#" data-name="Ebi" data-price="2.00" class="add-to-cart btn btn-primary">Add to cart</a>
+                <span class="price">RM 2.00</span>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="c">
+                <img src="S1 Tamago-Maki.jpg" alt="">
+            </div>
+            <div class="wuyu">
+                <h3>Tamago Maki</h3>
+                <p>Omelette</p>
+                <a href="#" data-name="Tamago-Maki" data-price="1.00" class="add-to-cart btn btn-primary">Add to cart</a>
+                <span class="price">RM 1.00</span>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="c">
+                <img src="S1 Kappa-Maki.jpg" alt="">
+            </div>
+            <div class="wuyu">
+                <h3>Kappa Maki</h3>
+                <p>Cucumber</p>
+                <a href="#" data-name="Kappa-Maki" data-price="1.00" class="add-to-cart btn btn-primary">Add to cart</a>
+                <span class="price">RM 1.00</span>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="c">
+                <img src="S1 Kanikama-Maki.jpg" alt="">
+            </div>
+            <div class="wuyu">
+                <h3>Kanikama Maki</h3>
+                <p>Crabstick</p>
+                <a href="#" data-name="Kanimaka-Maki" data-price="1.00" class="add-to-cart btn btn-primary">Add to cart</a>
+                <span class="price">RM 1.00</span>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="c">
+                <img src="S1 Norwegian-Salmon.jpg" alt="">
+            </div>
+            <div class="wuyu">
+                <h3>Norwegian Salmon</h3>
+                <p>Raw Norwegian Salmon</p>
+                <a href="#" data-name="Norwegian-Salmon" data-price="2.50" class="add-to-cart btn btn-primary">Add to cart</a>
+                <span class="price">RM 2.50</span>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="c">
+                <img src="S1 Goma-Iidako.jpg" alt="">
+            </div>
+            <div class="wuyu">
+                <h3>Goma Iidako</h3>
+                <p>Seasoned baby octopus</p>
+                <a href="#" data-name="Goma-Iidako" data-price="2.50" class="add-to-cart btn btn-primary">Add to cart</a>
+                <span class="price">RM 2.50</span>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="c">
+                <img src="S1 Unagi-Slice-Sushi.jpg" alt="">
+            </div>
+            <div class="wuyu">
+                <h3>Unagi Slice</h3>
+                <p>Grilled eel</p>
+                <a href="#" data-name="Unagi-Slice" data-price="2.50" class="add-to-cart btn btn-primary">Add to cart</a>
+                <span class="price">RM 2.50</span>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="c">
+                <img src="S1 Tuna-Mayo-Maki.jpg" alt="">
+            </div>
+            <div class="wuyu">
+                <h3>Tuna Mayo Maki</h3>
+                <p>Tuna mayonnaise, cucumber with sesame</p>
+                <a href="#" data-name="Tuna-Mayo-Maki" data-price="2.50" class="add-to-cart btn btn-primary">Add to cart</a>
+                <span class="price">RM 2.50</span>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="c">
+                <img src="S1 California-Maki.jpg" alt="">
+            </div>
+            <div class="wuyu">
+                <h3>California Maki</h3>
+                <p>Crabstick, cucumber, omelette with fish roe</p>
+                <a href="#" data-name="California-Maki" data-price="3.00" class="add-to-cart btn btn-primary">Add to cart</a>
+                <span class="price">RM 3.00</span>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="c">
+                <img src="S1 Nori-Tama.jpg" alt="">
+            </div>
+            <div class="wuyu">
+                <h3>Nori Tama</h3>
+                <p>Omelette with seaweed</p>
+                <a href="#" data-name="Nori-Tama" data-price="1.50" class="add-to-cart btn btn-primary">Add to cart</a>
+                <span class="price">RM 1.50</span>
+            </div>
+        </div>
+      </div>
+  </section>
+  
+  <section class="#Set Meals" id="Set Meals">
+
+     <div class="shop-container">
+        <div class="sushi"> set meals </div>
+     </div>
+
+       <div class="menu-container">
+
+        <div class="menu">
+            <div class="c">
+                <img src="SM Chicken-Curry.jpg" alt="">
+            </div>
+            <div class="wuyu">
+                <h3>Chicken Curry</h3>
+                <p>Rice with Japanese chicken curry and side dish</p>
+                <a href="#" data-name="Chicken-Curry" data-price="15.70" class="add-to-cart btn btn-primary">Add to cart</a>
+                <span class="price">RM 15.70</span>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="c">
+                <img src="SM Unagi-Set.jpg" alt="">
+            </div>
+            <div class="wuyu">
+                <h3>Unagi Set</h3>
+                <p>Grilled eel</p>
+                <a href="#" data-name="Unagi-Set" data-price="14.00" class="add-to-cart btn btn-primary">Add to cart</a>
+                <span class="price">RM 14.00</span>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="c">
+                <img src="SM TenDon.jpg" alt="">
+            </div>
+            <div class="wuyu">              
+                <h3>Tendon</h3>
+                <p>Rice with deep-fried prawns, chicken, long beans and mushrooms</p>
+                <a href="#" data-name="Tendon" data-price="16.30" class="add-to-cart btn btn-primary">Add to cart</a>
+                <span class="price">RM 16.30</span>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="c">
+                <img src="SM Oyako-Don.jpg" alt="">
+            </div>
+            <div class="wuyu">
+                <h3>Oyako-Don</h3>
+                <p>Rice with chicken, egg and onions</p>
+                <a href="#" data-name="Oyako-Don" data-price="13.90" class="add-to-cart btn btn-primary">Add to cart</a>
+                <span class="price">RM 13.90</span>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="c">
+                <img src="Sm Yakiniku-Don.jpg" alt="">
+            </div>
+            <div class="wuyu">
+                <h3>Yakiniku-Don</h3>
+                <p>Rice with beef, onion, BBQ sauce and spring onions</p>
+                <a href="#" data-name="Yakiniku-Don" data-price="14.20" class="add-to-cart btn btn-primary">Add to cart</a>
+                <span class="price">RM 14.20</span>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="c">
+                <img src="SM Kinoko-Soup.jpg" alt="">
+            </div>
+            <div class="wuyu">
+                <h3>Kinoko Soup</h3>
+                <p>Assorted mushroom, tofu and vegetables served in miso soup with rice</p>
+                <a href="#" data-name="Kinoko-Soup" data-price="15.20" class="add-to-cart btn btn-primary">Add to cart</a>
+                <span class="price">RM 15.20</span>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="c">
+                <img src="Bento Salmon-Steak-Ebi-Fry-Bento.jpg" alt="">
+            </div>
+            <div class="wuyu">
+                <h3>Salmon Ebi Bento</h3>
+                <p>Rice with steak salmon, fried ebi and side dishes</p>
+                <a href="#" data-name="Salmon-Ebi-Bento" data-price="22.00" class="add-to-cart btn btn-primary">Add to cart</a>
+                <span class="price">RM 22.00</span>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="c">
+                <img src="ramen 1 Shoyu-Ramen-Noodles.jpg" alt="">
+            </div>
+            <div class="wuyu">
+                <h3>Shoyu Ramen</h3>
+                <p>Ramen in shoyu soup</p>
+                <a href="#" data-name="Shoyu-Ramen" data-price="20.00" class="add-to-cart btn btn-primary">Add to cart</a>
+                <span class="price">RM 20.00</span>
+            </div>
+        </div>
+   
+        <div class="menu">
+            <div class="c">
+                <img src="Udon Ebi-Ten-Curry-Udon.jpg" alt="">
+            </div>
+            <div class="wuyu">
+                <h3>Ebi Curry Udon</h3>
+                <p>Udon in curry soup with friend prawn</p>
+                <a href="#" data-name="Ebi-Curry-Udon" data-price="20.70" class="add-to-cart btn btn-primary">Add to cart</a>
+                <span class="price">RM 20.70</span>
+            </div>
+        </div>
+     </div>
+  </section>
+
+  <section class="#Side Dishes" id="Side Dishes">
+     
+     <div class="shop-container">
+        <div class="sushi"> side dishes </div>
+     </div>
+
+     <div class="menu-container">
+
+        <div class="menu">
+            <div class="c">
+                <img src="A1 Chawanmushi.jpg" alt="">
+            </div>
+            <div class="wuyu">
+                <h3>Chawanmushi</h3>
+                <p>Japanese egg custard</p>
+                <a href="#" data-name="Chawanmushi" data-price="4.00" class="add-to-cart btn btn-primary">Add to cart</a>
+                <span class="price">RM 4.00</span>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="c">
+                <img src="A1 Edamame.jpg" alt="">
+            </div>
+            <div class="wuyu">
+                <h3>Edamame</h3>
+                <p>Green soybeans</p>
+                <a href="#" data-name="Edamame" data-price="1.50" class="add-to-cart btn btn-primary">Add to cart</a>
+                <span class="price">RM 1.50</span>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="c">
+                <img src="A1 Miso-soup.jpg" alt="">
+            </div>
+            <div class="wuyu">              
+                <h3>Miso Soup</h3>
+                <p>Japanese soybean soup</p>
+                <a href="#" data-name="Miso-Soup" data-price="4.50" class="add-to-cart btn btn-primary">Add to cart</a>
+                <span class="price">RM 4.50</span>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="c">
+                <img src="A1 Onsen-Egg.jpg" alt="">
+            </div>
+            <div class="wuyu">
+                <h3>Onsen Egg</h3>
+                <p>Soft-boiled egg</p>
+                <a href="#" data-name="Onsen-Egg" data-price="1.00" class="add-to-cart btn btn-primary">Add to cart</a>
+                <span class="price">RM 1.00</span>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="c">
+                <img src="A1 Rice.jpg" alt="">
+            </div>
+            <div class="wuyu">
+                <h3>Rice</h3>
+                <p>White color</p>
+                <a href="#" data-name="Rice" data-price="1.00" class="add-to-cart btn btn-primary">Add to cart</a>
+                <span class="price">RM 1.00</span>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="c">
+                <img src="A1 Takoyaki.jpg" alt="">
+            </div>
+            <div class="wuyu">
+                <h3>Takoyaki</h3>
+                <p>Deep-fried octopus ball with okonomi sauce</p>
+                <a href="#" data-name="Takoyaki" data-price="2.50" class="add-to-cart btn btn-primary">Add to cart</a>
+                <span class="price">RM 2.50</span>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="c">
+                <img src="Fish Salmon-Sashimi.jpg" alt="">
+            </div>
+            <div class="wuyu">
+                <h3>Salmon Sashimi</h3>
+                <p>Raw Norwegian Salmon</p>
+                <a href="#" data-name="Salmon-Sashimi" data-price="9.00" class="add-to-cart btn btn-primary">Add to cart</a>
+                <span class="price">RM 9.00</span>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="c">
+                <img src="Fish Unagi-Kabayaki.jpg" alt="">
+            </div>
+            <div class="wuyu">
+                <h3>Unagi Kabayaki</h3>
+                <p>Grilled eel</p>
+                <a href="#" data-name="Unagi-Kabayaki" data-price="9.00" class="add-to-cart btn btn-primary">Add to cart</a>
+                <span class="price">RM 9.00</span>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="c">
+                <img src="Salad Chicken-Salad.jpg" alt="">
+            </div>
+            <div class="wuyu">
+                <h3>Chicken Salad</h3>
+                <p>Grilled chicken and vegetables with dressing</p>
+                <a href="#" data-name="Chicken-Salad" data-price="9.50" class="add-to-cart btn btn-primary">Add to cart</a>
+                <span class="price">RM 9.50</span>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="c">
+                <img src="Salad Karaage-Egg-Salad.jpg" alt="">
+            </div>
+            <div class="wuyu">
+                <h3>Karaage Egg Salad</h3>
+                <p>Deep-fried chicken, boiled egg and vegetables with dressing</p>
+                <a href="#" data-name="Karaage-Egg-Salad" data-price="8.60" class="add-to-cart btn btn-primary">Add to cart</a>
+                <span class="price">RM 8.60</span>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="c">
+                <img src="Side Chuka-Kurage.jpg" alt="">
+            </div>
+            <div class="wuyu">
+                <h3>Chuka Kurage</h3>
+                <p>Seasoned jellyfish</p>
+                <a href="#" data-name="Chuka-Kurage" data-price="5.00" class="add-to-cart btn btn-primary">Add to cart</a>
+                <span class="price">RM 5.00</span>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="c">
+                <img src="Side Chuka-Wakame.jpg" alt="">
+            </div>
+            <div class="wuyu">
+                <h3>Chuka Wakame</h3>
+                <p>Seasoned seaweed</p>
+                <a href="#" data-name="Chuka-Wakame" data-price="5.00" class="add-to-cart btn btn-primary">Add to cart</a>
+                <span class="price">RM 5.00</span>
+            </div>
+        </div>
+     </div>
+   </section>
+
+   <section class="#Beverages & Desserts" id="Beverages & Desserts">
+
+     <div class="shop-container">
+        <div class="sushi">beverages & desserts</div>
+     </div>
+
+     <div class="menu-container">
+
+        <div class="menu">
+            <div class="c">
+                <img src="D1 Green Tea.jpg" alt="">
+            </div>
+            <div class="wuyu">
+                <h3>Green Tea</h3>
+                <p>1 bottle(refillable)<span>(hot or cold)</span></p>
+                <a href="#" data-name="Green-Tea" data-price="4.00" class="add-to-cart btn btn-primary">Add to cart</a>
+                <span class="price">RM 4.00</span>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="c">
+                <img src="D1 Ice-Honey-Lemon-Tea-Mug.jpg" alt="">
+            </div>
+            <div class="wuyu">
+                <h3>Honey Lemon Tea</h3>
+                <p>1 glass(hot or cold)</p>
+                <a href="#" data-name="Honey-Lemon-Tea" data-price="6.50" class="add-to-cart btn btn-primary">Add to cart</a>
+                <span class="price">RM 6.50</span>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="c">
+                <img src="D1 Mango-Peach-Juice-Mug.jpg" alt="">
+            </div>
+            <div class="wuyu">              
+                <h3>Mango Peach Juice</h3>
+                <p>1 glass(hot or cold)</p>
+                <a href="#" data-name="Mango-Peach-Juice" data-price="7.50" class="add-to-cart btn btn-primary">Add to cart</a>
+                <span class="price">RM 7.50</span>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="c">
+                <img src="DE1 Custard-Mochi-Puff.jpg" alt="">
+            </div>
+            <div class="wuyu">
+                <h3>Custard Mochi Puff</h3>
+                <p>Umami</p>
+                <a href="#" data-name="Custard-Mochi-Puff" data-price="6.90" class="add-to-cart btn btn-primary">Add to cart</a>
+                <span class="price">RM 6.90</span>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="c">
+                <img src="DE1 Hanjuku-Cheese-cake.jpg" alt="">
+            </div>
+            <div class="wuyu">
+                <h3>Hanjuku Cheese Cake</h3>
+                <p>Half-baked cheese cake</p>
+                <a href="#" data-name="Hanjuku-Cheese-Cake" data-price="5.00" class="add-to-cart btn btn-primary">Add to cart</a>
+                <span class="price">RM 5.00</span>
+            </div>
+        </div>
+      </div>
+
+    </section>
+
+</section>
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3> Kaze Sushi <i class="fas-thin fa-sushi"></i> </h3>
+            <p>Thank you for support our japanase restaurant! You can just share our restaurant through any social media that you like!</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>Contact Info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +6012-515-2298 </a>
+            <a href="#" class="links"> <i class="fas fa-clock"></i> 10:00am to 10.00pm </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> king@gmail.com </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> 72, jalan monkey, taman forest, 31350, ipoh, perak, malaysia </a>
+        </div>
+
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="kaze sushi bakar.html#Home" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="kaze sushi bakar.html#About Us" class="links"> <i class="fas fa-arrow-right"></i> about us </a>
+            <a href="kaze sushi bakar.html#Category" class="links"> <i class="fas fa-arrow-right"></i> category </a>
+            <a href="Ya.html" class="links"> <i class="fas fa-arrow-right"></i> menu </a>
+            <a href="kaze sushi bakar.html#Review" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+            <a href="Login.html" class="links"> <i class="fas fa-arrow-right"></i> login </a>
+        </div>
+
+        <div class="box">
+            <h3>Newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <input type="email" placeholder="your email" class="email">
+            <input type="submit" value="subscribe" class="btn1">
+            <img src="payment.jpg" class="payment-img" alt="">
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span> mr. king designer </span> | all rights reserved </div>
+
+</section>
+
+<script src="play.js"></script>
+<script src="search.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

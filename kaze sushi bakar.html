@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="with=device-width, initial-scale=1.0">
+   <title>Kaze Sushi</title>
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap" rel="stylesheet"> 
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Solway&display=swap" rel="stylesheet"> 
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Solway:wght@300&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+   <!-- animation links -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- animation links -->
+  
+</head>
+<body>
+
+<div class="bg"></div>
+
+<a id="backtotop"><i class="fa fa-chevron-up"></i></a>
+
+<script type="text/javascript" src="jquery.backtotop.js"></script>
+
+<header>
+ 
+    <input type="checkbox" name="" id="toggler">
+    <label for="toggler" class="fas fa-bars"></label>
+
+        <img src="kaze sushi logo.jpg" class="logo">
+         
+        <nav class="navbar">
+           <ul>
+            <li><a href="#Home">Home</a><i class="fa fa-home"></i></li>
+            <li><a href="#About Us">About Us</a><i class="fa fa-camera"></i></li>
+            <li><a href="#Category">Category</a><i class="fa fa-lightbulb"></i></li>
+            <li>
+              <a href="Ya.html#Menu">Menu <i class="fas fa-caret-down"></i></a>
+ 
+                <div class="dropdown">
+                 <ul>
+                  <li><a href="Ya.html#Sushi">Kaze Sushi</a></li>
+                  <li><a href="Ya.html#Set Meals">Set Meals</a></li>
+                  <li><a href="Ya.html#Side Dishes">Side Dishes</a></li>
+                  <li><a href="Ya.html#Beverages & Desserts">Bevereges & Desserts</a></li>
+                 </ul>
+                </div>
+
+            </li>
+            <li><a href="#Review">Review</a><i class="fa fa-comment"></i></li>
+            <li><a href="Login.html">Login</a><i class="fa fa-user"></i></li>
+           </ul>        
+        </nav>
+ 
+        <div class="icons">
+            <i class="fas fa-search" id="search-icon"></i>
+        </div>
+
+      <form action="https://www.google.com/search" id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+      </form>
+
+</header>
+
+     <section class="#Home" id="#Home">
+
+       <div id="Home" class="welcome">
+            <div class="animated-text">
+               <div class="line">SUSHI</div>
+               <div class="line">MADE</div>
+               <div class="line">WITH</div>
+               <div class="line"><span>&#10084;</span></div>
+            </div>
+          </div>  
+       </div>
+            
+       
+        <div class="content">
+         <div class="slider">
+            <div class="slides">
+               <input type="radio" name="radio-btn" id="radio1">
+               <input type="radio" name="radio-btn" id="radio2">
+               <input type="radio" name="radio-btn" id="radio3">
+               <input type="radio" name="radio-btn" id="radio4">
+               <input type="radio" name="radio-btn" id="radio5">
+           
+               <div class="slide first">
+                 <img src="sushi 1.jpg" alt="Gambar sushi 1">
+               </div>
+               <div class="slide">
+                 <img src="sushi 2.jpg" alt="Gambar sushi 2">
+               </div>
+               <div class="slide">
+                 <img src="sushi 3.jpg" alt="Gambar sushi 3">
+               </div>
+               <div class="slide"> 
+                 <img src="sushi 4.jpg" alt="Gambar sushi 4">
+               </div>
+               <div class="slide">
+                 <img src="sushi 5.jpg" alt="Gambar sushi 5">
+               </div>
+     
+               <div class="navigation-auto">
+                 <div class="auto-btn1"></div>
+                 <div class="auto-btn2"></div> 
+                 <div class="auto-btn3"></div>
+                 <div class="auto-btn4"></div> 
+                 <div class="auto-btn5"></div>
+               </div>
+            </div>
+
+            <div class="navigation-manual">
+               <label for="radio1" class="manual-btn"></label>
+               <label for="radio2" class="manual-btn"></label>
+               <label for="radio3" class="manual-btn"></label>
+               <label for="radio4" class="manual-btn"></label>
+               <label for="radio5" class="manual-btn"></label>
+            </div>
+         </div>
+    
+
+         <script type="text/javascript">
+         var counter = 1;
+         setInterval(function(){
+           document.getElementById('radio' + counter).checked = true;
+           counter++;
+           if(counter > 5){
+              counter = 1;
+           }
+         }, 6000);
+         </script>
+
+       
+     </section>
+
+<section class="#About Us" id="About Us">
+
+
+   <div id="About Us" class="wow">
+             <div class="image">
+                <img src="background-image.jpg" alt="hello">
+                   <div class="writing">
+                     <h1>Best Japanese Cuisine</h1>
+                     <span> Fresh and Tasty Sushi </span>
+                     <p>Welcome to KAZE SUSHI! If you want to eat sushi no.1 ranking in Malaysia, what are you waiting for? Just come and try it now!</p>
+                     <a href="Login.html" class="btn2">Login Now</a>
+                   </div>
+             </div>
+   </div>
+
+   <div id="About Us" class="sexybody">
+    
+       <div class="box1">
+            <img src="about 1.jpg">
+            <h2>SUSHI CHEF -JAPAN-</h2>
+            <p>With 46 years of experience to make inviting sushi</p>
+       </div>
+       <div class="box1">
+            <img src="about 2.jpg">
+            <h2>EXQUISITE DISHING</h2>
+            <p>Japan style ^v^ <br/>definately will love it <span>&#9825;</span></p>
+       </div>
+       <div class="box1">
+            <img src="about 3.jpg">
+            <h2>FRESH INGREDIENTS</h2>
+            <p>SALMON, SASHIMI, EEL, TUNA and else</p>
+       </div> 
+   </div>     
+
+
+   <div id="About Us" class="haha">
+
+    <div class="icons6">
+        <img src="icon-1.jpg" alt="">
+        <div class="info">
+            <h3>free delivery</h3>
+            <span>on all orders</span>
+        </div>
+    </div>
+
+    <div class="icons6">
+        <img src="icon-2.jpg" alt="">
+        <div class="info">
+            <h3>Affordable price</h3>
+            <span>eat many many</span>
+        </div>
+    </div>
+
+    <div class="icons6">
+        <img src="icon-3.jpg" alt="">
+        <div class="info">
+            <h3>offer & promotions</h3>
+            <span>new store opening 10% discount</span>
+        </div>
+    </div>
+
+    <div class="icons6">
+        <img src="icon-4.jpg" alt="">
+        <div class="info">
+            <h3>secure paymens</h3>
+            <span>protected by paypal</span>
+        </div>
+    </div>
+   </div>
+
+     <div id="About Us" class="container">
+             <div class="picture">
+                <img src="kaze.jpg" alt="history">
+                <div class="heading">
+                   <h1>ABOUT US</h1>
+                   <p>Kaze Sushi serves sushi that only dedicates to fueling your soul. To embrace the authentic flavour of Japanese dilicacies, our restaurant serves affordable selections of Japanese cuisine made from Japanese produce that everyone can enjoy without hassle. You can enjoy the Japanese ambience and cooking by visiting Kaze Sushi instead of travelling to Japan.<p>
+                </div>
+             </div>
+     </div>
+
+</section>
+
+<section class="#Category" id="Category">
+
+    <h1 class="j">Dishes Category !</h1>
+
+    <div class="ehh">
+
+        <div class="box7">
+            <img src="rok1.jpg" alt="">
+            <h3>Sushi</h3>
+            <a href="Ya.html#Sushi" class="btn7">view more</a>
+        </div>
+
+        <div class="box7">
+            <img src="rok2.jpg" alt="">
+            <h3>Set Meals</h3>
+            <a href="Ya.html#Set Meals" class="btn7">view more</a>
+        </div>
+
+        <div class="box7">
+            <img src="rok3.jpg" alt="">
+            <h3>Side Dishes</h3>
+            <a href="Ya.html#Side Dishes" class="btn7">view more</a>
+        </div>
+
+        <div class="box7">
+            <img src="rok4.jpg" alt="">
+            <h3>Beverages & Desserts</h3>
+            <a href="Ya.html#Beverages & Desserts" class="btn7">view more</a>
+        </div>
+
+    </div>
+
+</section>
+   
+<section class="#Review" id="Review">
+
+<div class="bagos">
+     <div class="jiji">
+        <div class="l">Customer's <span>Review</span> </div>
+     </div>
+
+  <div class="box-containeraa">
+
+    <div class="boxa">
+        <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <p>First time I try the best sushi ever hapiba I will go next time with my bestieeeeee! See you all next time ?! hihihihihi</p>
+        <div class="user">
+            <img src="1.jpg" alt="">
+            <div class="user-info">
+                <h3>Sister Lim</h3>
+                <span>wowcustomer</span>
+            </div>
+        </div>
+        <i class="fas fa-quote-right"></i>
+    </div>
+
+    <div class="boxa">
+        <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half"></i>
+        </div>
+        <p>I will share this restaurant to the ig! Can you give some vouchers and promotions to me please i love you so much "v" </p>
+        <div class="user">
+            <img src="2.jpg" alt="">
+            <div class="user-info">
+                <h3>Hentai Yumi</h3>
+                <span>hapicustomer</span>
+            </div>
+        </div>
+        <i class="fas fa-quote-right"></i>
+    </div>
+
+    <div class="boxa">
+        <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <p>Still ok because I don'like to eat japanese cuisine but my family take me to come wuwuwuw i hope them will not take me next time:( </p>
+        <div class="user">
+            <img src="3.jpg" alt="">
+            <div class="user-info">
+                <h3>Father King</h3>
+                <span>ok customer</span>
+            </div>
+        </div>
+        <i class="fas fa-quote-right"></i>
+    </div>
+
+  </div>
+
+</div>
+    
+</section>
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3> Kaze Sushi <i class="fas-thin fa-sushi"></i> </h3>
+            <p>Thank you for support our japanase restaurant! You can just share our restaurant through any social media that you like!</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>Contact Info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +6012-515-2298 </a>
+            <a href="#" class="links"> <i class="fas fa-clock"></i> 10:00am to 10.00pm </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> king@gmail.com </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> 72, jalan monkey, taman forest, 31350, ipoh, perak, malaysia </a>
+        </div>
+
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="#Home" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#About Us" class="links"> <i class="fas fa-arrow-right"></i> about us </a>
+            <a href="kaze sushi bakar.html#Category" class="links"> <i class="fas fa-arrow-right"></i> category </a>
+            <a href="Ya.html" class="links"> <i class="fas fa-arrow-right"></i> menu </a>
+            <a href="#Review" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+            <a href="Login.html" class="links"> <i class="fas fa-arrow-right"></i> login </a>
+        </div>
+
+        <div class="box">
+            <h3>Newsletter</h3>
+            <p>subscribe for latest updates</p>
+             <input type="email" name="email" class="email" placeholder="your email" required>
+            <button type="submit" class="btn1">Subscribe</button>
+            <img src="payment.jpg" class="payment-img" alt="">
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span> mr. king designer </span> | all rights reserved </div>
+
+</section>
+
+<script src="hehe.js"></script>
+<script src="play.js"></script>
+<script src="search.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
+         
